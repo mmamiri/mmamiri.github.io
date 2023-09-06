@@ -490,4 +490,18 @@ table.imgtable, table.imgtable td {
     text-align: left;
 }
 
+.btnScrollToTop { 
+  position: fixed; 
+  right: 20px; 
+  bottom: 20px; 
+  width: 50px; 
+  width: 50px; 
+  border: none; 
+  z-index: 99; 
+  opacity: 0; 
+}
+.btnScrollToTop.active{  
+  opacity: 1; 
+}
+
 
